@@ -34,7 +34,7 @@ Built a fully serverless three-tier web application using AWS services, demonstr
 - Monitoring with CloudWatch
 
 ## Time to Complete
-Approximately 4-5 hours
+Approximately 3 hours
 
 ## Challenges Overcome
 - Coordinating API Gateway, Lambda, and DynamoDB integration
