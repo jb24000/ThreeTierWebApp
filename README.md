@@ -1,24 +1,42 @@
-Website Delivery with CloudFront
+Three-Tier Web Application
 
 ## Overview
-Deployed a static website globally using Amazon S3 and CloudFront with secure access control via Origin Access Control (OAC).
+Built a fully serverless three-tier web application using AWS services, demonstrating end-to-end cloud architecture design, deployment, and security best practices.
+
+## Architecture Layers
+- **Presentation Tier (Frontend):** Static website hosted on Amazon S3
+- **Application Tier (API):** REST API created with AWS API Gateway and AWS Lambda
+- **Data Tier (Database):** Serverless database using Amazon DynamoDB
 
 ## AWS Services Used
 - Amazon S3
-- Amazon CloudFront
-- Origin Access Control (OAC)
+- Amazon API Gateway
+- AWS Lambda
+- Amazon DynamoDB
+- AWS IAM
+- AWS CloudWatch (for monitoring and logging)
 
 ## Key Features
-- Website hosting via S3 bucket
-- CloudFront CDN distribution and optimization
-- Bucket policy configuration for CloudFront-only access
-- Load time comparisons between S3 static hosting and CloudFront global delivery
+- Fully serverless deployment with no traditional servers
+- RESTful API architecture with Lambda integration
+- Schema-less DynamoDB design with partition keys
+- Secure IAM policies for Lambda and API Gateway access control
+- API documentation using OpenAPI/Swagger
+- Production deployment with live API endpoints
 
 ## Skills Demonstrated
-CDN Deployment, CloudFront Configuration, S3 Bucket Policies, Cloud Security
+- AWS Serverless Architecture
+- Three-Tier Web Application Design
+- API Gateway + Lambda Integration
+- DynamoDB Data Modeling
+- IAM Security Best Practices
+- API Documentation
+- Monitoring with CloudWatch
 
 ## Time to Complete
-2 hours
+Approximately 4-5 hours
 
 ## Challenges Overcome
-Resolving public access errors, configuring OAC, and tuning CloudFront performance.
+- Coordinating API Gateway, Lambda, and DynamoDB integration
+- Debugging IAM permission issues for least-privilege access
+- Writing OpenAPI documentation for deployed API endpoints
